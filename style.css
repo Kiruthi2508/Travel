@@ -1,0 +1,361 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    background: linear-gradient(rgb(61, 248, 61),white);
+    height: 700px;
+}
+
+ li a:hover{
+    color: black;
+    background-color: white;
+    padding: 8px;
+    border-radius: 20px;
+    box-shadow:  0px 0px 10px white,0px 0px 20px white,
+    0px 0px 30px white;
+    border: 2px solid white;
+  
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    line-height: 50px;
+    padding: 10px 0px;
+}
+
+.logo{
+    margin-left: 80px;
+    font-size: 40px;
+}
+.ul1{
+    display: flex;
+    list-style-type: none;
+}
+
+.li1 a,.book-btn{
+    margin-right: 50px;
+    color: black;
+    text-decoration: none;
+    font-size: 1.1rem;
+
+}
+
+.book-btn{
+    background-color: rgb(94, 253, 2);
+    border: none;
+    width: 150px;
+    padding: 13px;
+    border-radius: 10px;
+    color: white;
+}
+
+.img1{
+    position: relative;
+    float: right;
+    width: 250px;
+    right: 340px;
+    top:-70px;
+    border-radius: 10px 10px 10px 80px ;
+}
+.img2{
+    position: relative;
+    float: right;
+    width: 250px;
+    left: 200px;
+    top: 100px;
+    border-radius: 10px 80px 80px 80px ;
+}
+
+
+.h1-mc{
+    margin-top: 100px;
+    font-size: 50px;
+    margin-bottom: 25px;
+    
+}
+
+.main1{
+    margin-left: 80px;
+    
+
+}
+
+.p-mc{
+    margin-bottom: 25px;
+    font-size: 17px;
+    
+}
+
+.input-mc{
+    background-color: rgba(255, 255, 254, 0.979);
+    border: none; 
+    width: 500px;
+    padding: 12px;
+}
+.search-btn{
+    background-color: rgb(47, 255, 47);
+    color: white;
+    padding: 12px;
+    border: none;
+    width: 100px;
+}
+.section-container{
+    background-color: rgb(253, 255, 253);
+    height: 650px;
+}
+
+.content-container{
+    background-color: rgb(250, 253, 253);
+    width: 550px;
+    margin-left: 60px;
+    position: relative;
+    top: -135px;
+    
+    
+}
+
+.img-box{
+    background-color: white;
+    display: inline-block;
+    position: relative;
+    margin-left: 13px;
+    margin-bottom: 10px;
+
+}
+
+.img-cc{
+    width: 250px;
+    height: 200px;
+    
+}
+.para1{
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+}
+.recommand-cc{
+    
+    position: relative;
+    left: 700px;
+    width: 600px;
+    top: 150px;
+    
+}
+.h1-recommand,.para-recommand{
+    padding: 10px 0px;
+}
+.click-btn{
+    background-color: rgb(5, 247, 37);
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    border: none;
+    width: 100px;
+    margin-top: 15px;
+}
+
+.h1-work,.h3-bing{
+    text-align: center;
+    
+}
+
+.work-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 50px;    
+}
+
+.round{
+    padding: 30px;
+    margin-bottom: 30px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+}
+.round-div{
+    height: 70px;
+    width: 70px;
+    margin-bottom: 10px;
+    border: 0px solid gray;
+    background-color: white;
+    border-radius: 50%;
+    box-shadow: 0px 0px 30px gray,0px 0px 30px gray;
+}
+.round-h3,.round-p{
+    margin-bottom: 8px;
+}
+
+.image-container{
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.img-cont-1{
+    width: 350px;
+    height: 200px;
+    border-radius: 10px;
+}
+.img-cont-1:hover{
+    transform: scale(1.1);
+    transition-duration: 2s;
+
+}
+.pop-h2{
+    margin-bottom: 70px;
+    text-align: center;    
+}
+
+.rating-box{
+    background-color:rgb(86, 240, 65) ;
+    border-radius: 10px;
+    display: flex;
+    margin: 60px 70px;
+    padding: 20px;
+    
+    
+}
+.rate-p{
+    font-size: 1.2rem;
+    margin-top: 20px;
+    width: 230px;
+}
+.rate{
+    width: 700px;
+    margin-left:30px;
+}
+.rating-p,.rating-h3{
+    margin: 10px;
+
+}
+
+.box1-rate{
+    width: 100px;
+    height: 130px;
+    background-color: black;
+    border-radius: 40px 0px 50px 50px;
+    margin-left: 20px;
+}
+
+.h3-bing{
+    padding: 30px;
+    margin-bottom: 20px;
+}
+
+.img-bing-container{
+    display: flex;
+   justify-content: space-evenly;
+
+}
+
+.img-bing{
+    background-color: rgb(255, 255, 255);
+    width: 300px;
+    border-radius: 10px;
+    box-shadow: 2px 5px 10px black;
+
+}
+.bing-btn{
+    border: none;
+    background-color: grey;
+    padding: 3px 10px;
+    border-radius: 10px;
+    margin-top: 10px;
+
+}
+.bing-p{
+    margin-top: 10px;
+}
+.bing-p1{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+
+}
+.img-bing-1{
+    width: 300px;
+    height: 230px;
+    background-color: rgb(252, 241, 241);
+    border-radius: 10px;
+
+}
+
+.img-bing-div{
+    display: flex;
+    justify-content: space-between;
+    margin: 0px 10px;
+}
+
+.contact-container{
+    background-color: rgb(100, 240, 81);
+    display: flex;
+    justify-content: space-evenly;
+    margin:50px 100px;
+    border-radius: 10px;
+    padding: 50px;
+}
+.signup-div{
+    width: 350px;
+}
+.input-contact{
+    margin-top: 10px;
+    padding: 10px;
+    width: 450px;
+    border: none;
+}
+.contact-div{
+    margin-top: 10px;
+    border: none;
+    padding: 10px;
+    color: white;
+    background-color: rgb(34, 241, 15);
+}
+.footer-container{
+    background-color:rgb(250, 244, 164);
+    display: flex;
+    margin: 20px 100px;
+}
+.travel-div{
+    background-color:seagreen;
+    width: 450px;
+    padding: 30px;
+    height: 200px;
+    margin: 30px 10px;
+
+}
+.foot-h2{
+    padding: 20px 0px;
+}
+li{
+    list-style-type: none;
+}
+
+.links{
+    display: flex;
+    width: 800px;
+    justify-content: space-evenly;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+.li-h3{
+    padding: 10px 0px;
+}
+li{
+    padding: 5px;
+}
+
+
+
+
+
+
+
+
